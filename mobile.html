@@ -11,9 +11,15 @@
 
 
 <body>
+
+	<ul class="nav-desktop">
+		<li><a href="#">Boton 1</a></li>
+		<li><a href="#">Boton 1</a></li>
+		<li><a href="#">Boton 1</a></li>
+	</ul>
 	
 	<div class="nav">
-		<button id="boton">Abrir</button>
+		<button id="boton">Toggle</button>
 
 			<ul class="nav-mobile" id="menu">
 				<li><a href="#">Boton 1</a></li>
@@ -30,7 +36,12 @@
 		boton.addEventListener (
 			"click",
 			function () {
-				alert ("Hiciste click!");
+				//alert ("Hiciste click!");
+
+				//toggle = interruptor
+				// add / remove
+
+				menu.classList.toggle("toggle");
 			}
 		);
 

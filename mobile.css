@@ -33,3 +33,31 @@
 .nav-mobile a:hover {
 	background-color: orange;
 }
+
+.toggle {
+	display: block;
+}
+
+/*
+	Menu escritorio
+*/
+
+.nav-desktop {
+	max-width: 1000px;
+	background-color: violet;
+	display: flex;
+}
+
+.nav-desktop li {
+	flex-grow: 1;
+}
+
+.nav-desktop a {
+	display: block;
+	text-align: center;
+	padding: 10px;
+}
+
+.nav-desktop a:hover {
+	color: black;
+}
