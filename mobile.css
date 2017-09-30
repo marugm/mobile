@@ -27,6 +27,7 @@
 	padding: 20px;
 	background-color: salmon;
 	border-bottom: 1px dashed yellow;
+	max-width: 400px;
 
 	color: #FFF;
 	text-decoration: none;
