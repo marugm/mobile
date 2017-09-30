@@ -12,6 +12,12 @@
 	display: none;
 }
 
+.nav button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
 .nav-mobile {
 	position: absolute;
 	right: 30px;
