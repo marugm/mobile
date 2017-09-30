@@ -6,7 +6,15 @@
 	box-sizing: border-box;
 }
 
+.nav {
+	position: relative;
+}
+
 .nav-mobile {
+	position: absolute;
+	right: 30px;
+	width: 400px;
+
 	list-style-type: none;
 	background-color: purple;
 }
