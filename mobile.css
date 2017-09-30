@@ -17,6 +17,8 @@
 	right: 30px;
 	width: 400px;
 	display: none;
+	max-width: 400px;
+	min-width: 300px;
 
 	list-style-type: none;
 	background-color: purple;
@@ -27,7 +29,6 @@
 	padding: 20px;
 	background-color: salmon;
 	border-bottom: 1px dashed yellow;
-	max-width: 400px;
 
 	color: #FFF;
 	text-decoration: none;
