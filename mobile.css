@@ -8,6 +8,8 @@
 
 .nav {
 	position: relative;
+	/* oculto el menu mobile */
+	display: none;
 }
 
 .nav-mobile {
@@ -60,4 +62,12 @@
 
 .nav-desktop a:hover {
 	color: black;
+}
+
+/* Activo y desactivo el menu mobile / desktop -- 
+767 para no incluir al ipad para el menu hamburguesa, 768 para incluirlo -- depende de como quede */
+
+@media (max-width: 767px) {
+	.nav {display: block;}
+	.nav-desktop {display: none;}
 }
